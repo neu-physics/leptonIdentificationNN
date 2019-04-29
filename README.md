@@ -92,8 +92,9 @@ In order to see if my network was overtraining I first started testing my accura
 ![Plot of test accuracy, training accuracy, and loss for different sized training datasets](./figures/TrainingWithDifferentSizedDatasets.png)
 
 ### Comparison of Different Datasets
-
+This section of the project has been completed, and its report will be completed shortly.
 ## Optimization Phase
+This phase of the project has been completed, and its report will be completed shortly.
 ### Optimization through trial and error
 
 ### Optimization through iterative model validation
