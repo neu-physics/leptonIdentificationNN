@@ -131,4 +131,7 @@ These results of this analysis suggest that, as it is a local maximum (98%) near
 ## Symposium Presentation
 The findings of this research project were presented at the University of Virginia Undergraduate Research Symposium. The slides from that presentation can be found [here](https://drive.google.com/file/d/1iAK2S7aP3q0JFwvsYQEwVt5F7FE2Q_en/view?usp=sharing).
 
+## Acknolwedgements
+This project would not have been possible without the mentorship of and support from [Chris Neu]() and [Ben Tannenwald](https://github.com/btannenw).
 
+The docker portion of this project was written by [Chad Baily](https://github.com/chadbaily). 
