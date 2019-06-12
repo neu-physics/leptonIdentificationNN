@@ -109,6 +109,27 @@ Through these equations, it is clear to see that the relationship between p<sup>
 ### Optimization through trial and error
 
 ### Optimization through iterative model validation
+In order to conclusively determine the optimal network model, I trained the network and tested its results with each network strcuture from <strong>2 &rarr; 1 &rarr; 1 &rarr; 2</strong> to <strong>2 &rarr; 6 &rarr; 6 &rarr; 2</strong>. 
+
+The data collected through this method are summarized in Table I.
+
+<strong>Table I.</strong> Network Accuracy as a function of node structure with row number and 
+column number corresponding to the number of nodes in layers 1 and 2, respectively.
+
+|   	| 1          	| 2          	| 3          	| 4          	| 5          	| 6          	|
+|---	|------------	|------------	|------------	|------------	|------------	|------------	|
+| 1 	| 0.49801522 	| 0.4978888  	| 0.50160552 	| 0.50168137 	| 0.5014791  	| 0.50218705 	|
+| 2 	| 0.36573032 	| 0.50292028 	| 0.50752193 	| 0.46332583 	| 0.49973452 	| 0.53667417 	|
+| 3 	| 0.48767414 	| 0.50489242 	| 0.50807818 	| 0.50911481 	| 0.49925413 	| 0.50984804 	|
+| 4 	| 0.47867311 	| 0.50018963 	| 0.70152461 	| 0.48595484 	| 0.68731511 	| 0.4941468  	|
+| 5 	| 0.51343835 	| 0.50676342 	| 0.50084701 	| 0.43139238 	| 0.98098657 	| 0.50256631 	|
+| 6 	| 0.49667518 	| 0.51877323 	| 0.50618189 	| 0.52484134 	| 0.46721954 	| 0.96869864 	|
+
+
+These results are visuaized in the surface plot below.
+![Surface plot showing that 2 &rarr; 5 &rarr; 5 &rarr; 2 is the most accurate node structure followed closely by 2 &rarr; 6 &rarr; 6 &rarr; 2](./figures/Accuracy_vs_Node_Structure.png)
+
+These results of this analysis suggest that, as it is a local maximum (98%) near the global maximum value (100%), the network with 5 hidden layers in each node is close to the most highly optimized network structure. To test this conclusion further, one could continue to test with more nodes in each layer. However, as the accuracy of this network is already so close to maximum possible accuracy, one’s efforts may be better employed elsewhere.
 
 ## Symposium Presentation
 The findings of this research project were presented at the University of Virginia Undergraduate Research Symposium. The slides from that presentation can be found [here](https://drive.google.com/file/d/1iAK2S7aP3q0JFwvsYQEwVt5F7FE2Q_en/view?usp=sharing).
