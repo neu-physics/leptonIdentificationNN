@@ -92,11 +92,23 @@ In order to see if my network was overtraining I first started testing my accura
 ![Plot of test accuracy, training accuracy, and loss for different sized training datasets](./figures/TrainingWithDifferentSizedDatasets.png)
 
 ### Comparison of Different Datasets
-This section of the project has been completed, and its report will be completed shortly.
+After training a network on the p<sup>2</sup> E<sup>2</sup> dataset, I trained a network on the original dataset so that I could compare the results of the contrived dataset to the one similar to one that would be "straight out of the detector." 
+
+![Plot of test accuracy, training accuracy, and loss for two different datasets](./figures/DatasetComparison.png)
+
+These figures show that the results were far better for the network which had only p<sup>2</sup> E<sup>2</sup> as input variables. This makes sense given the nature of the relationship between the input variables and lepton flavor for each dataset. 
+
+The relationship between lepton flavor and input variable can be described by the following equations, using mass as a proxy for flavor: 
+
+![equations showing the relationship between input variable and lepton flavor (mass)](./figures/DatasetComparisonEquations.png)
+
+Through these equations, it is clear to see that the relationship between p<sup>2</sup> E<sup>2</sup> and lepton flavor is far less complicated than the relationship between p<sub>t</sub> &eta; &phi; E and lepton flavor, and so should be easier for the network to figure out. 
 ## Optimization Phase
-This phase of the project has been completed, and its report will be completed shortly.
 ### Optimization through trial and error
 
 ### Optimization through iterative model validation
+
+## Symposium Presentation
+The findings of this research project were presented at the University of Virginia Undergraduate Research Symposium. The slides from that presentation can be found [here](https://drive.google.com/file/d/1iAK2S7aP3q0JFwvsYQEwVt5F7FE2Q_en/view?usp=sharing).
 
 
