@@ -6,6 +6,8 @@ This a project that aims to identify lepton flavor (electron or muon) from a sam
 
 Unless otherwise noted, the instructions for installing packages and applications assume you are running a Unix environment. When this section of the README was last updated (02/01/2019), I was running MacOS 10.13.6, Python 3.6.5, and pip 18.1
 
+This repository used to be housed [here](https://github.com/btannenw/CMS_machineLearning/tree/master/leptonIdentificationNN).
+
 ## Development Environment
 
 ### Running using Docker
@@ -92,7 +94,7 @@ In order to see if my network was overtraining I first started testing my accura
 ![Plot of test accuracy, training accuracy, and loss for different sized training datasets](./figures/TrainingWithDifferentSizedDatasets.png)
 
 ### Comparison of Different Datasets
-After training a network on the p<sup>2</sup> E<sup>2</sup> dataset, I trained a network on the original dataset so that I could compare the results of the contrived dataset to the one similar to one that would be "straight out of the detector." 
+After training a network on the p<sup>2</sup> E<sup>2</sup> dataset, I trained a network on the p<sub>t</sub> &eta; &phi; E dataset so that I could compare the results of the contrived dataset to the one similar to one that would be "straight out of the detector." 
 
 ![Plot of test accuracy, training accuracy, and loss for two different datasets](./figures/DatasetComparison.png)
 
