@@ -105,7 +105,7 @@ The relationship between lepton flavor and input variable can be described by th
 ![equations showing the relationship between input variable and lepton flavor (mass)](./figures/DatasetComparisonEquations.png)
 
 Through these equations, it is clear to see that the relationship between p<sup>2</sup> E<sup>2</sup> and lepton flavor is far less complicated than the relationship between p<sub>t</sub> &eta; &phi; E and lepton flavor, and so should be easier for the network to figure out. 
-## Model Validation
+## Model Validation and Hyperparameter Tuning
 In order to conclusively determine the optimal network model, I trained the network and tested its results with each network strcuture from <strong>2 &rarr; 1 &rarr; 1 &rarr; 2</strong> to <strong>2 &rarr; 6 &rarr; 6 &rarr; 2</strong>. 
 
 The data collected through this method are summarized in Table I.
